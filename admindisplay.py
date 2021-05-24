@@ -1,4 +1,4 @@
-#!C:/Python38/python
+#!C:/ProgramData/Anaconda3/python
 print ("Content-type: text/html\n")
 
 
