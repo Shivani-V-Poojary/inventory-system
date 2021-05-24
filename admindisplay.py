@@ -1,4 +1,4 @@
-#!/app/.heroku/python/bin/python
+#!/bin/bash
 print ("Content-type: text/html\n")
 
 
