@@ -1,4 +1,4 @@
-process.env.PYTHONPATH
+#!/app/.heroku/python/bin/python
 print ("Content-type: text/html\n")
 
 
