@@ -1,1 +1,1 @@
-web: gunicorn app:register
+web: waitress-serve --port=$PORT inventory-system-cc.wsgi:application
