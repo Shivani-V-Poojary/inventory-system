@@ -1,4 +1,4 @@
-#!C:/ProgramData/Anaconda3/python
+process.env.PYTHONPATH
 print ("Content-type: text/html\n")
 
 
