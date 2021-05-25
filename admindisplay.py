@@ -151,11 +151,7 @@ for row in records:
    
    tot = tot + (quan*price)
 
-
-if(records == []) :
-    print(0)
-else :
-    print("     "+str(tot))
+print(str(tot))
 
 print('''
 </th>
@@ -185,7 +181,7 @@ for row in records:
    dmsg = ''.join(dr_msg)
    sum1 += int(dmsg)
 
-if(sumq == 0) :
+if(records == []) :
     pro = sum1
 else :
     pro = sum1 - sumq
