@@ -255,7 +255,7 @@ border: none;
        <button type="submit"  class="btn1">DISPLAY AVAILABLE PRODUCTS</button>
        
      </form>
-<form method="POST" action="createproduct.py" class="form-container" enctype="multipart/form-data">
+<form method="POST" action="createproduct.php" class="form-container" enctype="multipart/form-data">
   <div class="container">
    
     <hr>
