@@ -2,6 +2,9 @@
 
 
 import cgi
+import cgitb
+cgitb.enable()
+cgitb.enable(display=0, logdir="/path/to/logdir")
 
 form=cgi.FieldStorage()
 
