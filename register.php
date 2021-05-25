@@ -1,5 +1,5 @@
 <?php
-if ( isset( $_POST['reg_user'] ) ) {
+if ( isset( $_REQUEST['reg_user'] ) ) {
 
    $name = $_REQUEST['name'];
    $email = $_REQUEST['email'];
