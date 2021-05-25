@@ -1,12 +1,5 @@
 #!/usr/bin/env python
 
-#storing in database
-
-import mysql.connector
-
-connection = mysql.connector.connect(host="sql6.freesqldatabase.com",user="sql6414152",password="hnnpBcxV2a",database="sql6414152",port=3306)
-cur = connection.cursor()
-
 
 import cgi
 
@@ -16,6 +9,13 @@ form=cgi.FieldStorage()
 name=form.getvalue("name")
 email=form.getvalue("email")
 phone=str(form.getvalue("phone"))
+
+#storing in database
+
+import mysql.connector
+
+connection = mysql.connector.connect(host="sql6.freesqldatabase.com",user="sql6414152",password="hnnpBcxV2a",database="sql6414152",port=3306)
+cur = connection.cursor()
 
 
 
