@@ -5,9 +5,9 @@ import sys
 import os
 
 
-name=str(sys.arg[1])
-email=str(sys.arg[2])
-phone=str(sys.arg[3])
+name=str(sys.argv[1])
+email=str(sys.argv[2])
+phone=str(sys.argv[3])
 print(name + email + phone)
 #storing in database
 
