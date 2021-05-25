@@ -113,7 +113,7 @@ form, .content {
     <div class="input-group">
       <button type="submit" class="btn" name="reg_user">Submit</button>
     </div>
-    <p> <strong>Admin ?</strong><a href="login.html"><strong>Click here</strong></a>
+    <p> <strong>Admin1 ?</strong><a href="login.html"><strong>Click here</strong></a>
   </form>
 </body>
 </html>
