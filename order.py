@@ -348,12 +348,12 @@ label{
 
 <div class="input-group">
 <label>Client name</label>
-<input type="text" name="clientname" value="'''+cname+'''" disabled>
+<input type="text" name="clientname" value="'''+cname+'''">
 
 </div>
 <div class="input-group">
 <label>Client contact</label>
-<input type="number" name="number" value="'''+cphone+'''" disabled>
+<input type="number" name="number" value="'''+cphone+'''">
 </div>
 <div class="input-group">
 <label>Place</label>
