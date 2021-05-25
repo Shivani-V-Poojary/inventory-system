@@ -1,6 +1,6 @@
 <?php
-   $cname = $_REQUEST['clientname'];
-   $num = $_REQUEST['number'];
+   $cname = $_GET['clientname'];
+   $num = $_GET['number'];
    $place = $_REQUEST['place'];
    $name = $_REQUEST['pname'];
    $qua = $_REQUEST['pquantity'];
