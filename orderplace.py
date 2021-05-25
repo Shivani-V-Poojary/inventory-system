@@ -1,17 +1,15 @@
 #!/usr/bin/env python
 
 
-import cgi
-
-form=cgi.FieldStorage()
+import sys
 
 
-name=form.getvalue("clientname")
-contact=str(form.getvalue("number"))
-place=form.getvalue("place")
-pname=form.getvalue("pname")
-quantity=str(form.getvalue("pquantity"))
-price=str(form.getvalue("pprice"))
+name=sys.argv[1]
+contact=str(sys.argv[2])
+place=sys.argv[3]
+pname=sys.argv[4]
+quantity=str(sys.argv[5])
+price=str(sys.argv[6])
 
 #storing in database
 
