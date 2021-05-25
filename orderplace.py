@@ -89,19 +89,7 @@ def gen_key(q):
   
     return key
   
-# Modular exponentiation
-def power(a, b, c):
-    x = 1
-    y = a
-  
-    while b > 0:
-        if b % 2 == 0:
-            x = (x * y) % c;
-        y = (y * y) % c
-        b = int(b / 2)
-  
-    return x % c
-  
+
 # Asymmetric encryption
 def encrypt(msg, q, h, g, k):
   
