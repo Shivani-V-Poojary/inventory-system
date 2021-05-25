@@ -8,7 +8,7 @@ import os
 name=str(sys.arg[1])
 email=str(sys.arg[2])
 phone=str(sys.arg[3])
-
+print(name + email + phone)
 #storing in database
 
 import mysql.connector
