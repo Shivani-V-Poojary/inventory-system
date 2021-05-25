@@ -251,7 +251,7 @@ border: none;
   
      <h1 id="messagedisplay">+ADD PRODUCT</h1>
    
-<form method="POST" action="new2.py">
+<form method="POST" action="new2.php">
        <button type="submit"  class="btn1">DISPLAY AVAILABLE PRODUCTS</button>
        
      </form>
