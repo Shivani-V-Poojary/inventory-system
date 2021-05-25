@@ -4,7 +4,7 @@ print("Content-type: text/html\n")
 
 import mysql.connector
 
-connection = mysql.connector.connect(host="sql6.freesqldatabase.com",user=" sql6414152",password="hnnpBcxV2a",database="sql6414152",port = 3306)
+connection = mysql.connector.connect(host="sql6.freesqldatabase.com",user="sql6414152",password="hnnpBcxV2a",database="sql6414152",port = 3306)
 cur = connection.cursor()
 
 
