@@ -1,10 +1,9 @@
-#!C:/Python38/python
-print ("Content-type: text/html\n")
+#!/usr/bin/env python
 
 #database
 import mysql.connector
 
-connection = mysql.connector.connect(host="sql6.freesqldatabase.com",user=" sql6414152",password="hnnpBcxV2a",database="sql6414152")
+connection = mysql.connector.connect(host="sql6.freesqldatabase.com",user="sql6414152",password="hnnpBcxV2a",database="sql6414152",port=3306)
 cur = connection.cursor()
 
 def power(a, b, c):
@@ -47,9 +46,9 @@ print('''<!DOCTYPE html>
 <nav class="topnav">
  <h2 class="logo">NIDHI's &nbsp INVENTORY &nbsp MANAGEMENT</h2>
  <a href="index.html">logout</a>
- <a href="clientorder.py" class="order">Order</a>
-  <a href="createproduct.py" class="pro">Product</a>
-  <a href="admindisplay.py" class="dash">Dashboard</a>
+ <a href="clientorder.php" class="order">Order</a>
+  <a href="createproduct.php" class="pro">Product</a>
+  <a href="admindisplay.php" class="dash">Dashboard</a>
 
 </nav>
 <style>
