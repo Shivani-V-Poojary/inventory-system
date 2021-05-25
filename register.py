@@ -1,5 +1,4 @@
-#!C:/Python38/python
-print ("Content-type: text/html\n")
+#!/usr/bin/env python
 
 
 import cgi
@@ -15,8 +14,7 @@ phone=str(form.getvalue("phone"))
 
 import mysql.connector
 
-#connection = pymysql.connect(host="localhost",user="root",password="",database="inventory" )
-connection = mysql.connector.connect(host="sql6.freesqldatabase.com",user=" sql6414152",password="hnnpBcxV2a",database="sql6414152")
+connection = mysql.connector.connect(host="sql6.freesqldatabase.com",user="sql6414152",password="hnnpBcxV2a",database="sql6414152",port=3306)
 cur = connection.cursor()
 
 
@@ -139,9 +137,8 @@ print('''
 <nav class="topnav">
   <h2 class="logo">NIDHI's &nbsp INVENTORY &nbsp MANAGEMENT</h2>
   <a href="index.html">logout</a>
- <a href="index.html">logout</a>
-  <a href="order.py" class="order">Order</a>
-  <a href="new.py" class="pro">Product</a>
+  <a href="order.php" class="order">Order</a>
+  <a href="new.php" class="pro">Product</a>
   <a href="dashboard.html" class="dash">Dashboard</a>
  
  
