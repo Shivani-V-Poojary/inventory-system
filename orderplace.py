@@ -3,13 +3,58 @@
 
 import sys
 
+def power(a, b, c):
+    x = 1
+    y = a
+  
+    while b > 0:
+        if b % 2 == 0:
+            x = (x * y) % c;
+        y = (y * y) % c
+        b = int(b / 2)
+  
+    return x % c
 
-name=sys.argv[1]
-contact=str(sys.argv[2])
-place=sys.argv[3]
-pname=sys.argv[4]
-quantity=str(sys.argv[5])
-price=str(sys.argv[6])
+def decrypt(en_msg, p, key, q):
+  
+    dr_msg = []
+    h = power(p, key, q)
+    for i in range(0, len(en_msg)):
+        dr_msg.append(chr(int(en_msg[i]/h)))
+          
+    return dr_msg
+
+
+sql_select_Query = "select * from register"
+register = cur.execute(sql_select_Query)
+records = cur.fetchall()[-1]
+    
+
+cur.execute("select * from securitykey")
+
+
+record1 = cur.fetchall()[-1]
+p = int(record1[0])
+key = int(record1[1])
+q = int(record1[2])
+            
+x = []
+x = list(map(int, records[0].split()))
+dr_msg = decrypt(x, p, key, q)
+cname = ''.join(dr_msg)
+    
+x = []
+x = list(map(int, records[2].split()))
+dr_msg = decrypt(x, p, key, q)
+cphone = ''.join(dr_msg)
+ 
+
+name=cname
+contact=cphone
+place=sys.argv[1]
+pname=sys.argv[2]
+quantity=str(sys.argv[3])
+price=str(sys.argv[4])
 
 #storing in database
 
