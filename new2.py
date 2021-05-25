@@ -1,11 +1,10 @@
-#!C:/ProgramData/Anaconda3/python
-print ("Content-type: text/html\n")
+#!/usr/bin/env python
 
-#database
 import mysql.connector
 
-connection = mysql.connector.connect(host='localhost',user='root',password='',database='inventory')
+connection = mysql.connector.connect(host="sql6.freesqldatabase.com",user="sql6414152",password="hnnpBcxV2a",database="sql6414152",port=3306)
 cur = connection.cursor()
+
 
 def power(a, b, c):
     x = 1
