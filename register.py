@@ -1,17 +1,13 @@
 #!/usr/bin/env python
 print("Content-Type: text/html\n")    
 
-import cgi
-import cgitb
-cgitb.enable()
-cgitb.enable(display=0, logdir="/path/to/logdir")
-
-form=cgi.FieldStorage()
+import sys
+import os
 
 
-name=form.getvalue("name")
-email=form.getvalue("email")
-phone=str(form.getvalue("phone"))
+name=str(sys.arg[1])
+email=str(sys.arg[2])
+phone=str(sys.arg[3])
 
 #storing in database
 
