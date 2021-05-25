@@ -1,4 +1,4 @@
-#!C:/ProgramData/Anaconda3/python
+#!/usr/bin/env python
 print ("Content-type: text/html\n")
 
 print('''
