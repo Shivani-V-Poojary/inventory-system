@@ -1,10 +1,8 @@
-#!C:/Python38/python
-print ("Content-type: text/html\n")
-
+#!/usr/bin/env python
 
 import mysql.connector
 
-connection = mysql.connector.connect(host="sql6.freesqldatabase.com",user=" sql6414152",password="hnnpBcxV2a",database="sql6414152")
+connection = mysql.connector.connect(host="sql6.freesqldatabase.com",user="sql6414152",password="hnnpBcxV2a",database="sql6414152",port=3306)
 cur = connection.cursor()
 
 def power(a, b, c):
@@ -343,7 +341,7 @@ label{
 
 </header>
 <article>
-<form action="orderplace.py" method="post">
+<form action="orderplace.php" method="post">
 
 <table class="meta">
  
