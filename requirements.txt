@@ -1,7 +1,6 @@
 ChatterBot==1.0.4
 chatterbot-corpus==1.2.0
 click==7.1.2
-cgi==1.1.0
 Flask==1.1.2
 Flask-MySQLdb==0.2.0
 gunicorn==20.1.0
