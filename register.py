@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-print("Content-Type: text/html\n")    
+#!/usr/bin/env python   
 
 import sys
 
