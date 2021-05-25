@@ -1,6 +1,6 @@
 <?php
    $pid = $_REQUEST['image'];
-   $pname = $_REQUEST['name'];
+   $pname = $_REQUEST['product_name'];
    $quan = $_REQUEST['quantity'];
    $price = $_REQUEST['price'];
    $command_exec = escapeshellcmd('python createproduct.py'.' '.$name.' '.$pid.' '.$quan.' '.$price);
