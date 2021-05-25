@@ -67,8 +67,8 @@ print('''
 <nav class="topnav">
  <h2 class="logo">NIDHI's INVENTORY  MANAGEMENT</h2>
  <a href="index.html">logout</a>
- <a href="orderplace.html" class="order">Order</a>
- <a href="new.py" class="pro">Product</a>
+ <a href="order.php" class="order">Order</a>
+ <a href="new.php" class="pro">Product</a>
  <a href="dashboard.html" class="dash">Dashboard</a>
 
 </nav>
