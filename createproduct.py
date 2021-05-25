@@ -292,8 +292,8 @@ border: none;
 
 import sys
 
-product_name=sys.argv[1]
-id1=str(sys.argv[2])
+product_name=sys.argv[2]
+id1=str(sys.argv[1])
 quantity=str(sys.argv[3])
 price=str(sys.argv[4])
 
