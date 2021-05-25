@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 
+#storing in database
+
+import mysql.connector
+
+#connection = pymysql.connect(host="localhost",user="root",password="",database="inventory" )
+connection = mysql.connector.connect(host="sql6.freesqldatabase.com",user="sql6414152",password="hnnpBcxV2a",database="sql6414152",port=3306)
+cur = connection.cursor()
+
+
 
 import sys
 
@@ -55,15 +64,6 @@ place=sys.argv[1]
 pname=sys.argv[2]
 quantity=str(sys.argv[3])
 price=str(sys.argv[4])
-
-#storing in database
-
-import mysql.connector
-
-#connection = pymysql.connect(host="localhost",user="root",password="",database="inventory" )
-connection = mysql.connector.connect(host="sql6.freesqldatabase.com",user="sql6414152",password="hnnpBcxV2a",database="sql6414152",port=3306)
-cur = connection.cursor()
-
 
 
 #Encrypting
