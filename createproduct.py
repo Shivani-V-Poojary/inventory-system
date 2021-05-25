@@ -290,15 +290,12 @@ border: none;
    
     
 
-import cgi
+import sys
 
-form=cgi.FieldStorage()
-
-
-product_name=form.getvalue("product_name")
-id1=str(form.getvalue("image"))
-quantity=str(form.getvalue("quantity" ))
-price=str(form.getvalue("price"))
+product_name=sys.argv[1]
+id1=str(sys.argv[2])
+quantity=str(sys.argv[3])
+price=str(sys.argv[4])
 
 #storing in database
 
