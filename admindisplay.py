@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-print("Content-type: text/html\n")
-
 
 import mysql.connector
 
