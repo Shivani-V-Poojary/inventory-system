@@ -6,9 +6,9 @@ import cgi
 form=cgi.FieldStorage()
 
 
-name="Shivani"
-email="shivani@gmail.com"
-phone="9876543210"
+name=form.getvalue("name")
+email=form.getvalue("email")
+phone=str(form.getvalue("phone"))
 
 #storing in database
 
