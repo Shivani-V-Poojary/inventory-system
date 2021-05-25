@@ -424,6 +424,3 @@ encryption()
 
 cur.close()
 connection.close()
-
-print('''<a href="createproduct.html" class="pro">''')
-
