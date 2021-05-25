@@ -1,3 +1,4 @@
 <?php 
-include_once("index.html");
+include("index.html");
+include("admindisplay.py");
 ?>
