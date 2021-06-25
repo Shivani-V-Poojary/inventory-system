@@ -1,5 +1,5 @@
 # Grocery shopping Inventory Management System
-It is developed using python, MySQL, php(was used only to run python script) and html. No prerequites required to run the respective code. But just to import the sql file to store the data accordingly. 
+It is developed using python, MySQL, php(was used only to run python script) and html. No prerequites required to run the respective code. But just to import the sql file to store the data accordingly. In admin login, username : shivani.vp and password : 1234. 
 
 If this project is made to execute in local machine then, php files are not required. Just we need to change the path in each and every file from .php to .py. and replace the first line with these lines in all python files :
 
