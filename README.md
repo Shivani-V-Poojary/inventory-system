@@ -16,6 +16,6 @@ form.getvalue("name")
 
 First line clearly depicts that it is an interpreter file, to run rest of the script, second line is used to run CGI(Common Gateway Interface) scripts. These things are mandatory if the the interpreter file is made to run in python shell of physical machine.
 
-If this project is deployed in any platform it is mandatory to include ProcFile(how the platform should start while opening the deployed web app), runtime.txt(contains version of python shell) and requirements.txt(contains libraries including its version). And all python files are executed in php using shell command.
+If this project is deployed in any platform it is mandatory to include Procfile(how the platform should start while opening the deployed web app), runtime.txt(contains version of python shell) and requirements.txt(contains libraries including its version). And all python files are executed in php using shell command.
 
 We have merged all these changes, in all the files so that it is compatible in both environments, therefore it is not required to change anything. Above statement was just to make clear why php was used.
