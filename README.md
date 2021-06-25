@@ -18,4 +18,4 @@ First line clearly depicts that it is an interpreter file, to run rest of the sc
 
 If this project is deployed in any platform it is mandatory to include ProcFile(first page to be loaded when opening a web app), runtime.txt(contains version of python shell) and requirements.txt(contains libraries including its version). And all python files are executed in php using shell command.
 
-We have merged all these changes, in all the files, so it is not required to change anything. Above statements were just to make clear why php was used.
+We have merged all these changes, in all the files so that it works in both environments, therefore it is not required to change anything. Above statements was just to make clear why php was used.
